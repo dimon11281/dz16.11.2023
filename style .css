@@ -1,0 +1,29 @@
+body{
+    font-size: 30px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.gallery{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+
+.box{
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    background-color: aqua;
+    font-size: 22px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 5%;
+}
